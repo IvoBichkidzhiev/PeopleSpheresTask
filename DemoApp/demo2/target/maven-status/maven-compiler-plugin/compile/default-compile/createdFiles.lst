@@ -1,0 +1,16 @@
+people\spheres\demo2\constants\Constants.class
+people\spheres\demo2\services\EmailGeneratorService.class
+people\spheres\demo2\constants\Operations.class
+people\spheres\demo2\controller\EmailGeneratorController.class
+people\spheres\demo2\exception\BadRequestResponseDTO.class
+people\spheres\demo2\services\builder\ExpressionBuilder.class
+people\spheres\demo2\exception\ErrorMessageDTO.class
+people\spheres\demo2\services\builder\ExpressionBuilder$1.class
+people\spheres\demo2\dto\EmailDTO.class
+people\spheres\demo2\dto\IdValueDTO.class
+people\spheres\demo2\services\impl\EmailGeneratorServiceImpl.class
+people\spheres\demo2\Demo2Application.class
+people\spheres\demo2\util\Messages.class
+people\spheres\demo2\config\SwaggerConfig.class
+people\spheres\demo2\config\WebConfig.class
+people\spheres\demo2\exception\RestExceptionHandler.class

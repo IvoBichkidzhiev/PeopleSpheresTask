@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  java-service:
+    build:
+      context: ./be
+      dockerfile: Dockerfile
+
+  nginx-service:
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile
+    ports:
+       - "80:80"
+       - "9443:443"
+    depends_on:
+      - java-service
+    volumes:
+       - "./nginx/selfsigned-keys/nginx-selfsigned.crt:/etc/nginx/ssl/nginx-selfsigned.crt:ro"
+       - "./nginx/selfsigned-keys/nginx-selfsigned.key:/etc/nginx/ssl/nginx-selfsigned.key:ro"
+ 
